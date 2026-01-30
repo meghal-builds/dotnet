@@ -10,7 +10,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace winform
+namespace winform 
 {
     public partial class Form1 : Form
     {
