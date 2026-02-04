@@ -30,6 +30,7 @@ namespace winform
             this.Text = "Addition App";
             this.Width = 350;
             this.Height = 250;
+            this.BackColor = Color.LightGray;
 
             // TextBox 1
             txtA = new TextBox();
@@ -49,6 +50,7 @@ namespace winform
             btnAdd.Left = 50;
             btnAdd.Top = 110;
             btnAdd.Click += BtnAdd_Click;
+            btnAdd.BackColor = Color.White;
 
             // Sub Button
             btnSub = new Button();
@@ -56,6 +58,7 @@ namespace winform
             btnSub.Left = 150;
             btnSub.Top = 110;
             btnSub.Click += BtnSub_Click;
+            btnSub.BackColor = Color.White;
 
             // Mul Button
             btnMul = new Button();
@@ -63,6 +66,7 @@ namespace winform
             btnMul.Left = 250;
             btnMul.Top = 110;
             btnMul.Click += BtnMul_Click;
+            btnMul.BackColor = Color.White;
 
             // Div Button
             btnDiv = new Button();
@@ -70,6 +74,7 @@ namespace winform
             btnDiv.Left = 350;
             btnDiv.Top = 110;
             btnDiv.Click += BtnDiv_Click;
+            btnDiv.BackColor = Color.White;
 
             // Mod Button
             btnMod = new Button();
@@ -77,6 +82,7 @@ namespace winform
             btnMod.Left = 450;
             btnMod.Top = 110;
             btnMod.Click += BtnMod_Click;
+            btnMod.BackColor = Color.White;
 
             // Label
             lblResult = new Label();
@@ -84,6 +90,7 @@ namespace winform
             lblResult.Top = 150;
             lblResult.Width = 200;
             lblResult.Text = "Result";
+            lblResult.BackColor = Color.White;
 
             // Add controls to form
             this.Controls.Add(txtA);
