@@ -18,7 +18,7 @@ namespace winform
         TextBox txtA;
         Button btnAdd, btnSub, btnMul, btnDiv, btnMod, btnEquals, btnSignToggle, btnDecimalPoint, btnBackspace, btnCE, btnC, btnInverse, btnSquare, btnSqrt, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0;
         Label lblResult;
-        double firstNumber = 0;
+        double firstNumber = 0; 
         string currentOperator = "";
         bool isNewNumber = false;
         string expression = "";
